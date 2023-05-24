@@ -5,4 +5,4 @@ so i decided to my crap to masterpiece. git clone that shit, make sure you have 
 
 # the mysql add script
 
-TODO
+run this script but give first execution permissions before running it.
