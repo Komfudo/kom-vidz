@@ -6,3 +6,8 @@ so i decided to my crap to masterpiece. git clone that shit, make sure you have 
 # the mysql add script
 
 run this script but give first execution permissions before running it. and if it's not working well i did searched to google to fix a weird problem lol.
+for example that ERROR 1364 error. i just used the command:
+```
+ALTER TABLE `videos`
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+```
