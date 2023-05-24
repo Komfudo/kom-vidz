@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>KOM-VIDS</title>
+<style>
+table, th, td {
+  border:1px solid white;
+  text-align: center;
+}
+body {
+  width: 35em;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+</style>
+<link rel="icon" type="image/x-icon" href="/assets/icon.ico">
+</head>
+<body>
+<img src="/assets/banner.png">
+<p>Stupid videos made by me and also web design is my passion.<br>Select a video to download (for free)</p>
+<center>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Video file</th>
+    </tr>
+    {{ range . }}
+    <tr>
+      <td>{{.Title}}</td>
+      <td>{{.DateTime}}</td>
+      <td><a href="{{.FilePath}}" download>Download</a></td>
+    </tr>
+    {{ end }}
+</table>
+{{ if not . }}
+    <h1>No videos found in the database</h1>
+{{ end }}
+</center>
+<p><em>vidz.komfudo.eu.org not copyrighted 2023</em></p>
+</body>
+</html>
