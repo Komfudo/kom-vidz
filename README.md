@@ -1,13 +1,1 @@
-# kom-vidz
-#GO UPDATE
-
-so i decided to my crap to masterpiece. git clone that shit, make sure you have like go 1.19 installed on your server, i think you need to do go install but if it's not working then i'm a dumbass and i will gonna search solution like a idiot, and then compile it with go build. after that i should make a socket and systemd with nginx's proxy but i will gonna use screen and nginx's proxy instead.
-
-# the mysql add script
-
-run this script but give first execution permissions before running it. and if it's not working well i did searched to google to fix a weird problem lol.
-for example that ERROR 1364 error. i just used the command:
-```
-ALTER TABLE `videos`
-MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
-```
+This thing was shit anyway and also fuck you david with your cum-vudz jokes.
